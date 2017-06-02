@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--     Latest compiled and minified CSS
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+-->
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class ="top-row">
+      <button class="top" id = "t1" onclick="event1()"/>1
+      </button>
+      <button class="top" id = "myId2" onclick="id2Event()"/>2
+      </button>
+      <button class="top" id = "t3" onclick="event3()"/>3
+      </button>
+    </div>
+
+    <div class="bottom-row">
+      <button class="bottom" id = "t4" onclick="event4()"/>4
+      </button>
+      <button class="bottom" id = "t5" onclick="event5()"/>5
+      </button>
+      <button class="bottom" id = "t6" onclick="event6()"/>6
+      </button>
+
+
+
+    </div>
+
+  </body>
+
+  <style>
+
+.top-row{
+  text-align: center;
+  margin-top: 50%;
+  padding: 30px 30px;
+}
+
+.bottom-row{
+  text-align: center;
+}
+
+.top{
+  height: 40px;
+  width: 40px;
+  margin: 30px 30px;
+}
+
+.bottom{
+  height: 40px;
+  width: 40px;
+  margin: 30px 30px;
+}
+
+  </style>
+
+<script>
+
+
+
+function event1(){
+    alert("I did something!");
+}
+function id2Event(){
+    var firstEvent = document.getElementById("myId2");
+    alert("hello");
+}
+
+function event3(){
+    document.getElementById('t3').style.color="red";
+    document.getElementById('t3').style.height="100px";
+    document.getElementById('t3').style.width="100px";
+}
+
+function event4(){
+    document.getElementById('t3').style.color="black";
+
+}
+
+function event5(){
+  document.getElementById('t3').style.width="40px";
+
+
+}
+
+function event6(){
+  document.getElementById('t3').style.height="40px";
+}
+
+var t3 = document.getElementById('t3');
+var t6 = document.getElementById('t6');
+
+t6.onClick = function (){
+    if()
+
+}
+
+</script>
+
+
+
+
+</html>
