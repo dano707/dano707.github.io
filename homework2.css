@@ -1,8 +1,7 @@
-<style>
+body{
+  background-color: yellow;
+}
 
-  body{
-    background-color: yellow;
-  }
   a:link {
   color: red;
   }
@@ -81,6 +80,3 @@ to {margin-left: 75%;}
 .moving-banner{
 -webkit-animation: banner-animate 5s alternate infinite; /* Safari and Chrome */
 }
-
-
-</style>
