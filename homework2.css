@@ -1,0 +1,86 @@
+<style>
+
+  body{
+    background-color: yellow;
+  }
+  a:link {
+  color: red;
+  }
+  a:visited{
+  color: white;
+  }
+  h1{
+  color: red;
+  text-align: center;
+  margin: 0px;
+  }
+  p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  header{
+    font-size: 20px;
+
+  }
+  #larger-h2{
+    text-align: right;
+    color: blue;
+    font-style: italic;
+    font-size: 50px;
+    height: 50px;
+    margin: 20px 0 20px 0;
+  }
+  h2{
+    text-align: right;
+    color: blue;
+    font-style: italic;
+  }
+  p span {
+    color: red;
+  }
+  table{
+    background-color: yellow;
+    border-spacing: 5px;
+  }
+  td:first-child{
+    text-align: center;
+    font-weight: bold;
+  }
+  td {
+    padding: 10px;
+
+  }
+  .moving-banner{
+    height: 40px;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    width: 25%;
+    text-align: center;
+    overflow: scroll;
+
+
+  }
+
+  @-webkit-keyframes td-animation /* Safari and Chrome */
+  {
+  from {background: yellow;}
+  to {background: red;}
+  }
+  #animate-td{
+  -webkit-animation: td-animation 5s alternate infinite; /* Safari and Chrome */
+}
+
+
+@-webkit-keyframes banner-animate /* Safari and Chrome */
+{
+from {margin-left: 0%;}
+to {margin-left: 75%;}
+}
+.moving-banner{
+-webkit-animation: banner-animate 5s alternate infinite; /* Safari and Chrome */
+}
+
+
+</style>
