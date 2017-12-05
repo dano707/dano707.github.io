@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+a:visited{
+  color: #344873;
+}
+
+body{
+  background-color: white;
+  color: #333333;
+  background-image: url(background.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+  width: 80%;
+  min-width: 980px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 5px 5px 3px grey;
+  background-color: skyblue;
+}
+
+h1{
+  background-color: #000033;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 0px;
+  padding: 5px 0px 5px 20px;
+  min-width: 100px;
+  background-image: url(sunset.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+#nav{
+  background-color: skyblue;
+  display: inline-flex;
+  min-width: 165px;
+  max-width: 165px;
+}
+
+#nav ul li{
+  list-style: none;
+  font-weight: bold;
+}
+
+li{
+  list-style-position: inside;
+}
+
+h2{
+  text-shadow: 3px 3px 2px black;
+  color: #3399CC;
+  padding: 10px 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+h3{
+  color: #000033;
+}
+
+.content-wrapper{
+  display: flex;
+  background-color: skyblue;
+
+}
+img{
+  float: left;
+  height: auto;
+  max-width: 100%;
+  max-width: 100%;
+  padding-right: 5px;
+  height: 150px;
+  width: 195px;
+}
+.resort{
+  color: darkblue;
+  font-weight: bold;
+}
+#contact{
+  margin-top: 20px;
+}
+
+#address{
+  font-size: 90%;
+}
+#footer{
+  font-size: 75%;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px 0;
+  width: 100%;
+  overflow: auto;
+}
+
+#content{
+  width: 815px;
+}
+
+input{
+  height: 20px;
+  width: 150px;
+  border-radius: 3px;
+  border: none;
+  margin: 5px 5px 5px 0px;
+}
+button{
+  height: 20px;
+  width: 50px;
+  margin-left: 260px;
+}
+#email-form{
+  width: 310px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.webmaster{
+  font-style: italic;
+  display: block;
+}
+#bird{
+  color: white;
+  text-align: center;
+  overflow: scroll;
+  width: 34px;
+  height: 30.5px;
+  display: block;
+  float: none;
+  padding: 0;
+
+}
+/* N0TE: The webkit keyframe throws a CSS validator error. */
+@-webkit-keyframes bird-animate /* Safari and Chrome */
+{
+from {margin-left: 39px;}
+to {margin-left: 776px;}
+}
+
+#bird{
+-webkit-animation: bird-animate 3s linear forwards; /* Safari and Chrome */
+}
+
+#activities{
+  min-width: 100%;
+}
