@@ -1,0 +1,95 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: green;
+}
+a:link{
+  color: green;
+}
+.nav{
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  background-color: black;
+  color: green;
+  border-bottom: 1px solid green;
+
+}
+h1{
+  padding: 10px 0px;
+  display: inline;
+  line-height: 50px;
+}
+h3{
+  display: inline;
+  color: silver;
+  padding-left: 10px;
+
+}
+ul, li {
+  display: inline;
+  float: right;
+  margin-left: 20px;
+
+}
+li a:hover{
+  color: silver;
+}
+.header{
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  background-color: black;
+  border-bottom: 1px solid green;
+}
+h2{
+  font-size: 25px;
+  color: Green;
+  margin: 50px 0;
+  padding-top: 80px;
+
+}
+
+p{
+  color: silver;
+  width: 40%;
+}
+
+img, #learn, #next{
+  float: right;
+  height: 301px;
+  width: 634px;
+  border-radius: 15px;
+  padding: 5px;
+  border: 2px solid white;
+}
+
+
+
+.learn-text{
+  display: block;
+  margin: 0;
+  padding-left: 10%;
+  padding-top: 9%
+
+}
+
+.data-type{
+  color: maroon;
+}
+
+#text-wrapper{
+height: 100%;
+}
+
+#next-text{
+  margin-top: 10%;
+}
